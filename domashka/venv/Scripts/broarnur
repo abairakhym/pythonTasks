@@ -1,0 +1,5 @@
+list = ["Kz","Ru","USA","UK","Ir","Ch","Ja","Ko","Au","Sw"]
+new_list = [str(i)+'\n' for i in list]
+with open('file.txt', 'w') as f:
+          f.writelines(new_list)
+
